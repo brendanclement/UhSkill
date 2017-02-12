@@ -1,0 +1,26 @@
+{
+  "name": "uhskill",
+  "version": "1.0.0",
+  "description": "uh skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendanclement/UhSkill.git"
+  },
+  "keywords": [
+    "alexa",
+    "skill"
+  ],
+  "author": "Awesome people",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brendanclement/UhSkill/issues"
+  },
+  "homepage": "https://github.com/brendanclement/UhSkill#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}
