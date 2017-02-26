@@ -1,0 +1,6 @@
+Dear school nurse: miss {name}
+
+{name} {last_name} not be attending school today he has come down with a case of {illness} and has horrible {noun} and a {adjective} fever. We have made an appointment with the {adjective} doctor {noun} who has studied for a {number} of years and has {number} degress in pediatrics. He will send you all the {noun} you need.
+
+Sincerely,
+Mrs. {last_name}
