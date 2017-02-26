@@ -3,7 +3,7 @@ import * as Alexa from 'alexa-sdk';
 import { DefaultHandler } from './handler';
 
 const states = {
-    STARTSTATE : ''
+    STARTSTATE : '_START'
 }
 
 export function handler(event, context, callback) {

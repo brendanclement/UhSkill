@@ -10,7 +10,7 @@ module.exports = function(grunt) {
       node_modules: {
         files: [
           { expand: true, 
-            src: ['node_modules/**', 'package.json',
+            src: ['node_modules/**', 'package.json', 'stories/**',
                   '!node_modules/typescript/**',
                   '!grunt*/**'], 
             dest: 'dist/' }
