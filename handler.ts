@@ -7,12 +7,12 @@ export class DefaultHandler {
         const self = this;
         return {
             'NewSession' : function() {
-                let story = fs.readFileSync(path.join(__dirname, 'stories', 'school_story.txt'), { encoding: 'utf8'});
+                let story = fs.readFileSync(path.join(__dirname, 'stories', 'school_story_filled.txt'), { encoding: 'utf8'});
                 this.emit(':tell', story);
             },
 
             'SessionEndedRequest' : function() {
-
+                
             },
 
             'Unhandled' : function() {
