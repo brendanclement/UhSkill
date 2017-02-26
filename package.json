@@ -22,5 +22,12 @@
   "homepage": "https://github.com/brendanclement/UhSkill#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-aws-lambda": "^0.13.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.11",
+    "typescript": "^2.2.1"
   }
 }
