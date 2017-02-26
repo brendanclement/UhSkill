@@ -24,6 +24,7 @@
     "alexa-sdk": "^1.0.6"
   },
   "devDependencies": {
+    "@types/core-js": "^0.9.35",
     "@types/node": "^7.0.5",
     "grunt": "^1.0.1",
     "grunt-aws-lambda": "^0.13.0",

@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     ts: {
       default : {
-        src: ["**/*.ts", "!node_modules/**", "!dist/**"],
+        src: ["**/*.ts", "!node_modules/**", "!dist/**", "!bin/**"],
         tsconfig: "tsconfig.json"
       }
     },
@@ -38,4 +38,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-ts");
   grunt.loadNpmTasks('grunt-aws-lambda');
   grunt.registerTask("default", ["ts", 'copy:node_modules', 'lambda_package', 'lambda_deploy']);
+  grunt.registerTask("build", ["ts"]);
 };
